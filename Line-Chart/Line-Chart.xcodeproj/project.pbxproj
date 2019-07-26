@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		061522ED22EB067200CAFC4F /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 061522EC22EB067200CAFC4F /* Charts.framework */; };
 		069D96AA22EB0457005524A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069D96A922EB0457005524A7 /* AppDelegate.swift */; };
 		069D96AC22EB0457005524A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069D96AB22EB0457005524A7 /* ViewController.swift */; };
 		069D96AF22EB0457005524A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 069D96AD22EB0457005524A7 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		061522EC22EB067200CAFC4F /* Charts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Charts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		069D96A622EB0457005524A7 /* Line-Chart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Line-Chart.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		069D96A922EB0457005524A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		069D96AB22EB0457005524A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -33,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				061522ED22EB067200CAFC4F /* Charts.framework in Frameworks */,
 				8ED8A6D24590888B8BD2B24C /* Pods_Line_Chart.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -74,6 +77,7 @@
 		818DCA8D1E4F7AA2EBE517F2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				061522EC22EB067200CAFC4F /* Charts.framework */,
 				DB6FACB4E15F20DCC1D4DFBE /* Pods_Line_Chart.framework */,
 			);
 			name = Frameworks;
@@ -359,6 +363,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9HVHM5PPH2;
 				INFOPLIST_FILE = "Line-Chart/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -378,6 +383,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9HVHM5PPH2;
 				INFOPLIST_FILE = "Line-Chart/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
