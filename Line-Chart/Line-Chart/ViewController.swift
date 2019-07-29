@@ -29,7 +29,7 @@ class ViewController: UIViewController {
         
     }
 
-  //  func setChart(data,values: [Double]) {
+ 
      func setChart(dataPoints: [String], values: [Double]) {
         
         print(values)
