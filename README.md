@@ -22,3 +22,7 @@ Example 4 - Line-Chart_3_Final2
 Example 5 - Line-Chart_3_Final3
 
 ![Screenshot 2019-08-01 at 11 23 26 AM](https://user-images.githubusercontent.com/27955299/62268933-1e94e000-b44f-11e9-873f-1c89dd352d5b.png)
+
+Example 6 - Line-Chart_3_Final4
+
+![Line-Chart_3_Final4](https://user-images.githubusercontent.com/27955299/62274714-07a9ba00-b45e-11e9-9220-0269b46ebbfb.png)
