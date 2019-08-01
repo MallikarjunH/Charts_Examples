@@ -2,7 +2,7 @@ Line Chart, Bar Chart and Pie Charts Examples
 
 Library: https://github.com/danielgindi/Charts
 
-Example 1 - Line-Chart
+Example 1 - Line-Chart (gradient fill)
 
 ![Line-Chart](https://user-images.githubusercontent.com/27955299/62184508-13bd4b00-b37c-11e9-8983-b192504cb7ee.png)
 
