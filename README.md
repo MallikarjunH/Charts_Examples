@@ -26,3 +26,10 @@ Example 5 - Line-Chart_3_Final3
 Example 6 - Line-Chart_3_Final4
 
 ![Line-Chart_3_Final4](https://user-images.githubusercontent.com/27955299/62274714-07a9ba00-b45e-11e9-9220-0269b46ebbfb.png)
+
+Example 7 - Line-Chart_3_Final4_Swift4 - This example work fine with swift 4
+
+profilePictureView.layer.cornerRadius = profilePictureView.frame.size.width/2
+profilePictureView.clipsToBounds = true
+
+
