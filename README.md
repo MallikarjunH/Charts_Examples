@@ -32,37 +32,37 @@
 
 **Following line/code is not available after 4.0 versions** (i.e 4.2, 5.0 swift verions)
 
-chartViewOutlet.xAxis.valueFormatter = IndexAxisValueFormatter(value: months)
-
-Solutions: - You need to add following code in order to show values on X- Axis
+        chartViewOutlet.xAxis.valueFormatter = IndexAxisValueFormatter(value: months)
+      
+**Solutions**: - You need to add following code in order to show values on X- Axis
 
         let customFormater = CustomFormatter()
         customFormater.labels =  months
         chartViewOutlet.xAxis.valueFormatter = customFormater
       
 and write seperate class like below,     
-
-final class CustomFormatter: IAxisValueFormatter {
-    
-    var labels: [String] = []
-    
-    func stringForValue(_ value: Double, axis: AxisBase?) -> String {
+  
+    final class CustomFormatter: IAxisValueFormatter{
+        var labels: [String] = []
+        func stringForValue(_ value: Double, axis: AxisBase?) -> String {
         
-        let count = self.labels.count
+            let count = self.labels.count
         
-        guard let axis = axis, count > 0 else {
+            guard let axis = axis, count > 0 else {
+                return ""
+            }
+        
+            let factor = axis.axisMaximum / Double(count)
+        
+            let index = Int((value / factor).rounded())
+        
+            if index >= 0 && index < count {
+                return self.labels[index]
+            }
+        
             return ""
         }
-        
-        let factor = axis.axisMaximum / Double(count)
-        
-        let index = Int((value / factor).rounded())
-        
-        if index >= 0 && index < count {
-            return self.labels[index]
-        }
-        
-        return ""
-    }
-}
+     }
+
+
 
