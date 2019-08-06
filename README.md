@@ -32,7 +32,7 @@
 
 **Following line/code is not available after 4.0 versions** (i.e 4.2, 5.0 swift verions)
 
-chartViewOutlet.xAxis.valueFormatter = IndexAxisValueFormatter(values: months) 
+chartViewOutlet.xAxis.valueFormatter = IndexAxisValueFormatter(value: months)
 
 Solutions: - You need to add following code in order to show values on X- Axis
 
