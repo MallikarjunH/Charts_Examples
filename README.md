@@ -49,5 +49,5 @@ and write seperate class like below,
 
 ![3](https://user-images.githubusercontent.com/27955299/62760620-0f8edd00-baa2-11e9-8fb7-e01b94fbf72a.jpg)
 
-**Pie Chart** - Output Screens
+**Pie Chart** - Output Screen
 
