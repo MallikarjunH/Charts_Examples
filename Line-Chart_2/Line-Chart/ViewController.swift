@@ -42,6 +42,7 @@ class ViewController: UIViewController {
         lineChartDataSet.setCircleColor(UIColor.black) // our circle will be dark red
         lineChartDataSet.lineWidth = 1.0
         lineChartDataSet.circleRadius = 3.0 // the radius of the node circle
+        
         lineChartDataSet.fillAlpha = 1
         lineChartDataSet.fillColor = UIColor.black
         lineChartDataSet.highlightColor = UIColor.white
